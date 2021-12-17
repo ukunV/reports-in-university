@@ -3,7 +3,7 @@ Course records from 2016 to 2021
 
 # Course List(Software-Related)
 
- Year |  Semester | Grade | Course(KOR) | Course(ENG) | Upload
+ Year |  Semester | Grade | Course (KOR) | Course (ENG) | Upload
  :---: | :---: | :---: | :--- | :--- | :---:
 2021 | 2 | B+ | 디자인패턴 | Design Pattern | 
 2021 | 2 | () | 정보보호이론 | Security Theory | 
@@ -19,11 +19,11 @@ Course records from 2016 to 2021
 2020 | 2 | A+ | 인공지능 | A.I | 
 2020 | 2 | A+ | 캡스톤디자인_2 | Capston Design_2 | 
 2020 | 2 | A | 컴퓨터와통신 | Computer and Communication | 
-2020 | 1 | A+ | 운영체제 | Operating System | 👌
+2020 | 1 | A+ | 운영체제 | Operating System | 
 2020 | 1 | A+ | 컴퓨터네트워크 | Computer Network | 
-2020 | 1 | A+ | 오픈소스SW활용 | Utilization of OpenSource | 👌
+2020 | 1 | A+ | 오픈소스SW활용 | Utilization of OpenSource | 
 2020 | 1 | A+ | 멀티미디어시스템 | MultiMedia System | 
-2020 | 1 | A+ | 알고리즘 | Algorithm | 👌
+2020 | 1 | A+ | 알고리즘 | Algorithm | 
 2019 | 2 | B+ | 컴퓨터구조 | Computer Architecture | 
 2019 | 2 | A | 자료구조 | Data Structure | 
 2019 | 2 | A | 시스템프로그래밍 | System Programming | 
