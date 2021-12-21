@@ -27,7 +27,7 @@ Course records from 2016 to 2021
 2019 | 2 | B+ | 컴퓨터구조 | Computer Architecture | 
 2019 | 2 | A | 자료구조 | Data Structure | 
 2019 | 2 | A | 시스템프로그래밍 | System Programming | 
-2019 | 1 | A+ | 객체지향프로그래밍 | Object Oriented Programming | 
+2019 | 1 | A+ | 객체지향프로그래밍 | Object Oriented Programming | 👌
 2019 | 1 | A | 데이터베이스기초 | Basic Database | 👌
 2016 | 2 | A | 프로그래밍_2 | Programming_2 | 👌
 2016 | 1 | B+ | 프로그래밍_1 | Programming_1 | -
