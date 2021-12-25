@@ -9,7 +9,7 @@ Course records from 2016 to 2021
 2021 | 2 | A+ | 정보보호이론 | Security Theory | 
 2021 | 1 | A+ | 캡스톤디자인_1 | Capston Design_1 | [LINK](https://github.com/ukunV/kiwi)
 2021 | 1 | A | 웹Application기획개발방법론 | Application Planning and Development | 👌
-2021 | 1 | A+ | 모바일플랫폼 | Mobile Platform | 
+2021 | 1 | A+ | 모바일플랫폼 | Mobile Platform | 👌
 2021 | 1 | B+ | 빅데이터처리 | BigData Processing | 
 2021 | 1 | A | 시큐어코딩 | Secure Coding | 
 2020 | 2 | A+ | 컴퓨터프로그래밍 | Computer Programming | -
