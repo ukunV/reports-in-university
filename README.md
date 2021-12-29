@@ -21,7 +21,7 @@ Course records from 2016 to 2021
 2020 | 2 | A | 컴퓨터와통신 | Computer Communication | 
 2020 | 1 | A+ | 운영체제 | Operating System | 
 2020 | 1 | A+ | 컴퓨터네트워크 | Computer Network | 
-2020 | 1 | A+ | 오픈소스SW활용 | Utilization of OpenSource | 
+2020 | 1 | A+ | 오픈소스SW활용 | Utilization of OpenSource | 👌
 2020 | 1 | A+ | 멀티미디어시스템 | MultiMedia System | 👌
 2020 | 1 | A+ | 알고리즘 | Algorithm | 👌
 2019 | 2 | B+ | 컴퓨터구조 | Computer Architecture | 
