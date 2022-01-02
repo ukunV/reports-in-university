@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2020-2-WebProg-3-HW14-Main-이건욱-32163006</title>
+</head>
+<body>
+  <h3>오디오 리스트 연속 재생</h3>
+  <hr>
+  <p>
+    처음 play 버튼을 누르면 리스트에 있는 곡이 연속하여 자동 재생 됩니다.
+    마우스로 다른 곡을 선택하면 곡이 바뀝니다.
+    next 버튼을 누르면 다음 곡으로 넘어갑니다.
+  </p>
+  <hr>
+  <audio id="audio" src="" autoplay controls></audio>
+  <br>
+  <select id="select" size="3">
+    <option value="Cover.mp3">Cover</option>
+    <option value="ColdWater.mp3">ColdWater</option>
+    <option value="Average.mp3">Average</option>
+  </select>
+  <button onclick="play()">play</button>
+  <button onclick="next()">next</button>
+  <p id="name">현재 연주되는 곡명이 보입니다.</p>
+
+  <script>
+    const audio = document.getElementById("audio");
+    const select = document.getElementById("select");
+    const name = document.getElementById("name");
+    let inx;
+
+    audio.onended = () => {
+      next();
+    }
+
+    function play() {
+      inx = select.selectedIndex;
+      if(inx === -1) {
+        inx = 0;
+      }
+      audio.src = select.options[inx].value;
+      name.innerHTML = audio.src + "를 재생합니다.";
+      audio.load();
+    }
+    function next() {
+      inx += 1;
+      if(inx >= select.length) {
+        inx = 0;
+      }
+      audio.src = select.options[inx].value;
+      name.innerHTML = audio.src + "를 재생합니다.";
+      audio.load();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020-2-WebProg-3-HW1-이건욱-32163006</title>
+    <style>
+        body {
+            font-size: 20px;
+            background-color: #ce93d8;
+            color: green;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        
+        h3 {
+            font-size: 40px;
+            text-align: center;
+            color: darkblue;
+        }
+
+        hr {
+            height: 5px;
+            border: solid grey;
+            background-color: grey;
+        }
+
+        span {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+
+    <script>
+        function show() {
+            let shrek = document.getElementById('shrek');
+            shrek.src="shrek.jpg"
+        }
+        function hide() {
+            let shrek = document.getElementById('shrek');
+            shrek.src=""
+        }
+    </script>
+</head>
+<body>
+    <h3 onmouseover="show()" onmouseout="hide()">슈렉</h3>
+    <hr>
+    <div><img id="shrek" src="" alt=""></div>
+    저는 대한민국에서 태어나서 컴퓨터 공학을 전공하는 학생입니다.
+    제가 제일 좋아하는 과목은 <span>웹 프로그래밍</span>이고, 그 중에 서도
+    <span>자바스크립트</span>를 제일 잘합니다.
+</body>
+</html>

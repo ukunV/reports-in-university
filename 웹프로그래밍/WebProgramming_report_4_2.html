@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2020-2-WebProg-3-HW4-4Survey-이건욱-32163006</title>
+    <style>
+      h1 {
+        color: brown;
+        text-align: center;
+      }
+
+      article {
+        padding: 5px 0;
+      }
+
+      form {
+        background-color: pink;
+        margin: 0 15px;
+      }
+
+      label {
+        color: blue;
+        font-weight: 600;
+        padding-left: 1em;
+      }
+
+      span {
+        font-family: "휴먼편지체", sans-serif;
+      }
+
+      footer {
+        background-color: orange;
+        border-radius: 10px;
+        padding-left: 15px;
+      }
+
+      p {
+        font-family: "휴먼편지체", sans-serif;
+        text-indent: 1em;
+      }
+
+      textarea {
+        border: 1px dashed black;
+      }
+
+      #select-field {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>설문지</h1>
+      <p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+    </header>
+    <hr />
+
+    <form method="GET">
+      <article>
+        <label>학년</label>
+        <input type="radio" name="grade" checked /><span>1학년</span>
+        <input type="radio" name="grade" /><span>2학년</span>
+        <input type="radio" name="grade" /><span>3학년</span>
+        <input type="radio" name="grade" /><span>4학년</span>
+      </article>
+
+      <article>
+        <label>성별</label>
+        <input type="radio" name="gender" checked /><span>남</span>
+        <input type="radio" name="gender" /><span>여</span>
+      </article>
+
+      <article>
+        <label>관심 분야</label>
+        <select name="field" id="select-field">
+          <option value="1" selected>모바일 소프트웨어</option>
+          <option value="2">웹 프로그래밍</option>
+          <option value="3">데이터베이스</option>
+        </select>
+      </article>
+
+      <article>
+        <label>진로(다중 선택)</label>
+        <input type="checkbox" checked /><span>개발</span>
+        <input type="checkbox" /><span>기획</span>
+        <input type="checkbox" /><span>영업</span>
+        <input type="checkbox" /><span>창업</span>
+      </article>
+
+      <article>
+        <label>남기고 싶은 말</label>
+        <textarea
+          name="comment"
+          cols="50"
+          rows="10"
+          placeholder="글을 남겨주세요"
+        ></textarea>
+      </article>
+    </form>
+    <br />
+    <footer>Copyright 2020 by KUNUK</footer>
+  </body>
+</html>

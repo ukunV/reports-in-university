@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2020-2-WebProg-3-HW11-Main-이건욱-32163006</title>
+    <script src="https://kit.fontawesome.com/69cc74444b.js" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    body{
+      background-image: url(sea.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+    }
+
+    div {
+      position: absolute;
+    }
+
+    i {
+      color: white;
+    }
+
+    #container{
+      width: 120rem;
+      height: 51rem;
+    }
+  </style>
+  <script defer>
+    const div = document.getElementsByClassName("snow");
+    let fall = new Array(div.length);
+
+    window.onload = () => {
+      const ct = document.getElementById('container');
+      
+      for(let i=0; i<100; i++){
+        let newDiv = document.createElement('div');
+        newDiv.className = 'snow';
+        newDiv.innerHTML = `<i class="far fa-snowflake"></i>`;
+        ct.appendChild(newDiv);
+      }
+
+      let width = window.innerWidth;
+      let height = window.innerHeight;
+ 
+      for(let i=0; i<div.length; i++){
+        let x = Math.random()*120;
+        let y= Math.random()*51;
+        fall[i] = y;
+
+        div[i].style.left = x+"rem";
+        div[i].style.top = y+"rem";
+      }
+    }
+
+    let timer = setInterval("falling()", 100);
+
+    function falling() {
+      for(let i=0; i<div.length; i++) {
+        fall[i] += 1;
+        div[i].style.top = fall[i] + "rem";
+        if(fall[i] > 49.5){
+          fall[i] = 0;
+        }
+      }
+    }
+  </script>
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
