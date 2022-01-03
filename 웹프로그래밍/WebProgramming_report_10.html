@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2020-2-WebProg-3-HW10-Main-이건욱-32163006</title>
+  </head>
+  <style>
+    td {
+      border: 1px solid blue;
+      width: 50px;
+      height: 50px;
+      padding: 0px;
+    }
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  </style>
+  <script defer>
+    function set() {
+      const table = document.querySelector("#main_box");
+
+      for (let i = 0; i < 10; i++) {
+        const row = document.createElement("tr");
+        for (let j = 0; j < 10; j++) {
+          const col = document.createElement("td");
+          col.innerHTML = "<img src = 'bruno.jpg'>";
+          row.appendChild(col);
+        }
+        table.appendChild(row);
+      }
+
+      for (let i = 0; i < 100; i++) {
+        document.images[i].style.visibility = "hidden";
+        document.images[i].addEventListener("click", () => {
+          document.images[i].style.visibility = "hidden";
+          let cur = Math.floor(Math.random() * 100);
+          document.images[cur].style.visibility = "visible";
+        });
+      }
+
+      let temp = Math.floor(Math.random() * 100);
+      document.images[temp].style.visibility = "visible";
+    }
+  </script>
+  <body onload="set()">
+    <table id="main_box"></table>
+  </body>
+</html>

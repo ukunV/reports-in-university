@@ -15,7 +15,7 @@ Course records from 2016 to 2021
 2020 | 2 | A+ | 컴퓨터프로그래밍 | Computer Programming | -
 2020 | 2 | A | 멀티미디어신호처리 | MultiMedia Signal Processing | 👌
 2020 | 2 | A+ | 고급데이터베이스 | Advanced Database | 👌
-2020 | 2 | A+ | 웹프로그래밍 | Web Programming | 
+2020 | 2 | A+ | 웹프로그래밍 | Web Programming | 👌
 2020 | 2 | A+ | 인공지능 | A.I | 
 2020 | 2 | A+ | 캡스톤디자인_2 | Capston Design_2 | [LINK](https://github.com/ukunV/homes)
 2020 | 2 | A | 컴퓨터와통신 | Computer Communication | 

@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  margin: 0;
+}
+
+label {
+  color: blue;
+  font-weight: 600;
+  padding-left: 1em;
+}
+
+span {
+  font-family: "휴먼편지체", sans-serif;
+}
+
+footer {
+  background-color: violet;
+  padding-left: 15px;
+  padding-top: 0.7rem;
+  height: 2rem;
+}
+
+p {
+  font-family: "휴먼편지체", sans-serif;
+  text-indent: 1em;
+  margin: 0;
+}
+
+#select-field {
+  width: 200px;
+}
+
+header {
+  background-color: yellow;
+}
+
+form {
+  background-color: pink;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

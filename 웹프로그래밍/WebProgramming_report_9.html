@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>갬블링 게임</title>
+    <style>
+      #frame {
+        background-color: antiquewhite;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        font-size: 80px;
+        color: blue;
+        border: 1px solid violet;
+      }
+
+      #resultID {
+        color: violet;
+        font-size: 30px;
+      }
+    </style>
+    <script>
+      let chk = new Array();
+      let nums = new Array();
+
+      function change(name, s) {
+        if (chk[s - 1] != 1) {
+          let p = document.getElementById(name);
+          let n1 = Math.floor(Math.random() * 3);
+          let n2 = Math.floor(Math.random() * 3);
+          let n3 = Math.floor(Math.random() * 3);
+          if (s == 1) {
+            p.innerHTML = n1;
+            nums[s - 1] = n1;
+          } else if (s == 2) {
+            p.innerHTML = n2;
+            nums[s - 1] = n2;
+          } else {
+            p.innerHTML = n3;
+            nums[s - 1] = n3;
+          }
+          chk[s - 1] = 1;
+        }
+        if (s == 3) {
+          let r = nums[0];
+          let ans = 1;
+          for (let i = 0; i < nums.length; i++) {
+            if (nums[i] != r) {
+              ans = 0;
+              break;
+            }
+          }
+          let result = document.getElementById("resultID");
+          if (ans == 1) {
+            result.innerHTML = "Success!!(click here to do again)";
+          } else {
+            result.innerHTML = "fail...(click here to do again)";
+          }
+        }
+      }
+
+      function restart() {
+        location.reload();
+      }
+    </script>
+  </head>
+
+  <body>
+    <h3>갬블링 게임</h3>
+    각 숫자를 클릭하여 0에서 2사이의 난수로 바뀝니다.<br />
+    모두 같은 수가 나오면 승리합니다.
+    <hr />
+    <div id="frame">
+      <span id="ran1" onclick="change('ran1', '1')">0</span>
+      <span id="ran2" onclick="change('ran2', '2')">0</span>
+      <span id="ran3" onclick="change('ran3', '3')">0</span>
+    </div>
+
+    <span id="resultID" onclick="restart()"></span>
+  </body>
+</html>
