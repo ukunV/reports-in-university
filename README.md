@@ -24,7 +24,7 @@ Course records from 2016 to 2021
 2020 | 1 | A+ | 오픈소스SW활용 | Utilization of OpenSource | 👌
 2020 | 1 | A+ | 멀티미디어시스템 | MultiMedia System | 👌
 2020 | 1 | A+ | 알고리즘 | Algorithm | 👌
-2019 | 2 | B+ | 컴퓨터구조 | Computer Architecture | 
+2019 | 2 | B+ | 컴퓨터구조 | Computer Architecture | 👌
 2019 | 2 | A | 자료구조 | Data Structure | 👌
 2019 | 2 | A | 시스템프로그래밍 | System Programming | 👌
 2019 | 1 | A+ | 객체지향프로그래밍 | Object Oriented Programming | 👌
