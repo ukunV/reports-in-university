@@ -18,7 +18,7 @@ Course records from 2016 to 2021
 2020 | 2 | A+ | 웹프로그래밍 | Web Programming | 👌
 2020 | 2 | A+ | 인공지능 | A.I | 👌
 2020 | 2 | A+ | 캡스톤디자인_2 | Capston Design_2 | [LINK](https://github.com/ukunV/homes)
-2020 | 2 | A | 컴퓨터와통신 | Computer Communication | 
+2020 | 2 | A | 컴퓨터와통신 | Computer Communication | 👌
 2020 | 1 | A+ | 운영체제 | Operating System | 👌
 2020 | 1 | A+ | 컴퓨터네트워크 | Computer Network | 👌
 2020 | 1 | A+ | 오픈소스SW활용 | Utilization of OpenSource | 👌
